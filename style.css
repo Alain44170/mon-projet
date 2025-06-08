@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    width: 100vh;
+    width: 200vh;
     height: auto;
 }
 
@@ -24,22 +24,26 @@ body{
 
 header {
     grid-area: header;
+    border-radius: 30px;;
     background: #4A90E2;
     color: white;
+    font-weight: 700;
+    font-size: 20px;
     padding: 20px;
-    width: 700px;
+    width: 200vh;
     text-align: center;
-    margin-left: 50%;
-    margin-right: 50%;
 }
 
 nav {
     grid-area: nav;
     background: #ff0015;
-    padding: 20px;
-    width: 400px;
+    padding: 5px;
+    width: 245px;
     color: white;
     font-weight: 700;
+    font-size: 15px;
+    border-radius: 20px;
+    border: ridge 4px rgb(255, 74, 74);
 }
 nav ul{
     display: flex;
@@ -48,7 +52,7 @@ nav li{
     margin-left: 20px;
     list-style-type: none;
 }
-nav ul li a{
+nav a{
     cursor: pointer;
 }
 
