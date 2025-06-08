@@ -52,7 +52,7 @@ nav {
     border-radius: 20px;
     border: ridge 4px rgba(0, 68, 255, 0.396);
     margin-bottom: 0;
-    background: url("/images/degrade.jpg");
+    background: url("images/degrade.jpg");
 }
 
 nav ul {
