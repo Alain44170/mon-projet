@@ -1,14 +1,15 @@
-* {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    padding: 0;
-}
-body{
-    width: 200vh;
-    height: auto;
-}
 
+html body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("/images/Ciel-nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -20,25 +21,33 @@ body{
     grid-template-rows: auto auto 1fr auto;
     gap: 10px;
     padding: 10px;
+    height: 100%;
+    width:98.4%;
 }
 
 header {
     grid-area: header;
     border-radius: 30px;;
-    background: #4A90E2;
+    background:url("/images/Ciel-nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
     color: white;
     font-weight: 700;
     font-size: 20px;
     padding: 20px;
-    width: 200vh;
+    margin: 0 auto 0 auto;
     text-align: center;
+    width: 90%;
+   
 }
 
 nav {
     grid-area: nav;
     background: #000000;
-    padding: 5px;
-    width: 260px;
+    width: 350px;
     font-weight: 700;
     border-radius: 20px;
     border: ridge 4px rgb(255, 74, 74);
@@ -53,7 +62,7 @@ nav li{
 nav a{
     cursor: pointer;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     color: white;
 }
 nav a:hover{
