@@ -1,36 +1,72 @@
-body{
+* {
     margin: 0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
 }
-.grid-container{
+body{
+    width: 100vh;
+    height: auto;
+}
+
+.grid-container {
     display: grid;
     grid-template-areas:
-    "header header"
-    "nav nav"
-    "main aside"
-    "footer footer";
+        "header header"
+        "nav nav"
+        "main aside"
+        "footer footer";
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto auto 1fr auto;
     gap: 10px;
     padding: 10px;
 }
-header{ grid-area: header;
-background: #4A90E2; color: white;
-padding: 20px;
-}
-nav{ grid-area: nav;
-    background: #50E3C2;
+
+header {
+    grid-area: header;
+    background: #4A90E2;
+    color: white;
     padding: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
 }
-main{ grid-area: main;
+
+nav {
+    grid-area: nav;
+    background: #ff0015;
+    padding: 20px;
+    width: 400px;
+    color: white;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-left: 20px;
+    list-style-type: none;
+}
+nav ul li a{
+    cursor: pointer;
+}
+
+main {grid-area: main;
     background: #81ff7f;
     padding: 20px;
 }
-aside{ grid-area: aside;
+
+aside {
+    grid-area: aside;
     background: #ff8484;
     padding: 20px;
 }
-footer{ grid-area: footer;
-    background: #4A90E2;color: white;
-    text-align: center;padding: 20px;
+
+footer {
+    grid-area: footer;
+    background: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
