@@ -36,12 +36,10 @@ header {
 
 nav {
     grid-area: nav;
-    background: #ff0015;
+    background: #000000;
     padding: 5px;
-    width: 245px;
-    color: white;
+    width: 260px;
     font-weight: 700;
-    font-size: 15px;
     border-radius: 20px;
     border: ridge 4px rgb(255, 74, 74);
 }
@@ -54,6 +52,13 @@ nav li{
 }
 nav a{
     cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline wavy white;
+    text-underline-offset: 2px;
 }
 
 main {grid-area: main;
