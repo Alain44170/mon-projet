@@ -118,9 +118,3 @@ footer {
     border-radius: 10px;
     margin-top: 120px;
 }
-@media all and (max-width: 780px)
-{
-    header{
-        margin-top: 200px;
-    }
-}
