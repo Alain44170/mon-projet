@@ -28,18 +28,17 @@ html body {
 header {
     grid-area: header;
     border-radius: 30px;
-    ;
     background: url("images/Ciel-nature.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 40px;
     padding: 10px;
     margin: 0 auto 0 auto;
+    margin-top: 100px;
     text-align: center;
     width: 90%;
 
@@ -53,6 +52,9 @@ nav {
     border: ridge 4px rgba(0, 68, 255, 0.396);
     margin-bottom: 0;
     background: url("images/degrade.jpg");
+    position: fixed;
+    top: 5px;
+    z-index: 1000;
 }
 
 nav ul {
@@ -80,22 +82,28 @@ nav a:hover {
 
 main {
     grid-area: main;
-    background: #253f86;
+    background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    width: 70%;
+    width: 800px;
+    height: 300px;
     text-align: center;
     border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 
 aside {
     grid-area: aside;
-    background: #941010;
+    background: hsla(0, 80%, 32%, 0.365);
     padding: 20px;
     color: white;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 10px;
 
 
 }
@@ -104,7 +112,15 @@ footer {
     grid-area: footer;
     background: #7e27a9;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
+    margin-top: 120px;
+}
+@media all and (max-width: 780px)
+{
+    header{
+        margin-top: 200px;
+    }
 }
