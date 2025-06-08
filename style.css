@@ -29,7 +29,7 @@ header {
     grid-area: header;
     border-radius: 30px;
     ;
-    background: url("/images/Ciel-nature.jpg");
+    background: url("images/Ciel-nature.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
