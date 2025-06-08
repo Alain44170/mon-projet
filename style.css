@@ -2,7 +2,7 @@ html body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: url("/images/Ciel-nature.jpg");
+    background: url("images/Ciel-nature.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
